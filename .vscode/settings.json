@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "C:\\Users\\koribili\\envs\\django-tutorial\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
