@@ -20,3 +20,11 @@ def add(request):
     res = int(val1) + int(val2)
 
     return render(request, "result.html", {'result': res})
+
+def modulus(request):
+
+    firstNum = int(request.POST["firstNum"])
+    secondNum = int(request.POST["secondNum"])
+    result = firstNum % secondNum
+
+    return render(request, "result.html", {'result': result})

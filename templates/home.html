@@ -12,5 +12,14 @@
     Enter 2nd number : <input type="text" name="num2"><br>
     <input type="submit">
 </form>
+<br><br>
+<form action="mod" method="post">
+
+    {% csrf_token %}
+
+    Enter 1st number : <input type="text" name="firstNum"><br>
+    Enter 2nd number : <input type="text" name="secondNum"><br>
+    <input type="submit">
+</form>
 
 {% endblock %}
